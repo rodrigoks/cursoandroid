@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Idade de Cachorro</string>
+    <string name="lbl_app">Digite a idade do seu cachorro para saber a idade humana.</string>
+    <string name="btn_calcular">Calcular idade</string>
+</resources>
