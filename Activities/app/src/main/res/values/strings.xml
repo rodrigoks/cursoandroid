@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Activities</string>
+    <string name="app_btn_abrir_nova_activity">Abrir Nova Activity</string>
 </resources>
+
