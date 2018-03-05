@@ -4,6 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorApp"
     tools:context="br.com.jbusiness.caraoucoroa.SecondActivity">
+
+    <ImageView
+        android:id="@+id/iv_resultado_id"
+        android:layout_width="wrap_content"
+        android:layout_height="304dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moeda_cara" />
+
+    <ImageView
+        android:id="@+id/iv_btn_voltar_id"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_resultado_id"
+        app:srcCompat="@drawable/botao_voltar" />
 
 </android.support.constraint.ConstraintLayout>
