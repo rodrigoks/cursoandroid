@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Atm Empresa Consultoria</string>
+    <string name="activity_empresa_sobre">Sobre a empresa</string>
 </resources>
