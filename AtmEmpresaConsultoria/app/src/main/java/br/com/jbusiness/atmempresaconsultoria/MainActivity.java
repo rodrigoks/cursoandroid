@@ -1,11 +1,10 @@
 package br.com.jbusiness.atmempresaconsultoria;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,21 +33,21 @@ public class MainActivity extends AppCompatActivity {
         ivClientes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Clientes", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, ClientesActivity.class));
             }
         });
 
         ivServicos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Serviços", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, ServicosActivity.class));
             }
         });
 
         ivContato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Contato", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, ContatoActivity.class));
             }
         });
     }

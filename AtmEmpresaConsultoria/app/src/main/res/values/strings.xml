@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Atm Empresa Consultoria</string>
     <string name="activity_empresa_sobre">Sobre a empresa</string>
+
+    <string name="activity_servicos">Servicos</string>
+    <string name="activity_consultoria">- Consultoria</string>
+    <string name="activity_processos">- Processos</string>
+    <string name="activity_acomp_projetos">- Acompanhamento e projetos</string>
+
+    <string name="activity_clientes">Nossos Clientes</string>
+    <string name="activity_clientes_cliente_1">Empresa de Desenvolvimento de Sistemas.</string>
+    <string name="activity_clientes_cliente_2">Empresa de Auditoria.</string>
+
+    <string name="activity_contatos">Contato</string>
+    <string name="activity_contatos_email">E-mail: rodrigoks@gmail.com</string>
+    <string name="activity_contatos_telefone">Telefone: (19) 3329 3772</string>
+    <string name="activity_contatos_celular">Celular: (19) 9 9209 0916</string>
+
+
 </resources>
